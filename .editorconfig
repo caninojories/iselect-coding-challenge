@@ -1,0 +1,17 @@
+# Editor configuration, see http://editorconfig.org
+root = true
+
+[*]
+charset = utf-8
+# Choose in between tab or space
+indent_style = space
+# number of columns used per indentation level
+indent_size = 2
+# Remove whitespace at the end of lines
+trim_trailing_whitespace = true
+# Insert a line at the end of a file
+insert_final_newline = true
+
+[*.md]
+max_line_length = off
+trim_trailing_whitespace = false

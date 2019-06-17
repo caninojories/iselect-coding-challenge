@@ -1,0 +1,19 @@
+{
+  "name": "iselect-coding-challenge",
+  "version": "0.0.1",
+  "private": true,
+  "description": "",
+  "scripts": {
+    "start": "node index.js",
+    "lint": "eslint .",
+    "test": "NODE_ENV=unittest $(npm bin)/mocha --exit $(find test/** -name *.test.js)"
+  },
+  "devDependencies": {
+    "bunyan": "^1.8.12",
+    "bunyan-format": "0.2.1",
+    "chai": "4.2.0",
+    "eslint": "5.14.1",
+    "mocha": "6.0.1",
+    "sinon": "7.2.4"
+  }
+}
